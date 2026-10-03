@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totem Fila Microondas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🍕 Fila Microondas</h1>
+        
+        <div class="fila-info">
+            <p>Pessoas na fila: <strong id="totalPessoas">0</strong></p>
+        </div>
+
+        <button onclick="entrarNaFila()" class="btn-entrar">Entrar na Fila</button>
+        
+        <div id="resultado" class="resultado-escondido">
+            <h2>Sua Senha:</h2>
+            <div class="numero-grande" id="meuNumero">--</div>
+            <p id="posicao"></p>
+            <button onclick="sairDaFila()" class="btn-sair">Sair da Fila</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
